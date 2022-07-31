@@ -3,7 +3,8 @@ var app=express();
 
 app.get("/",(req, res)=>{
     res.send(
-            "<h1>Contoso Web Homapage </h1>"
+
+            "<h1>Contoso Web Homapage </h1>"            
             +"<hr/>"
             +"<h3>Smart Devices for sale</h3>"
             + "<br/>"
@@ -47,3 +48,4 @@ app.get("/login",(req, res)=>{
 
 var server=app.listen(9000);
 console.log("Contoso Online shopping running on port 9000");
+
