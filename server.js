@@ -3,7 +3,7 @@ var app=express();
 
 app.get("/",(req, res)=>{
     res.send(
-            "<h1>Vijay Sales </h1>"
+            "<h1>Contoso Web Homapage </h1>"
             +"<hr/>"
             +"<h3>Smart Devices for sale</h3>"
             + "<br/>"
@@ -11,7 +11,7 @@ app.get("/",(req, res)=>{
             +"<li>Laptops</li>"
             +"<li>Mobile Phones</li>"
             +"<li>Hololgraphic Devices</li>"
-            +"<li>Samrt Watches</li>"
+            +"<li>Smart Watches</li>"
             +"<li>Gaming Consoles</li>"
             + "</ol>"
     );
@@ -19,7 +19,7 @@ app.get("/",(req, res)=>{
 
 app.get("/aboutus",(req, res)=>{
     res.send(
-            "<h1>Vijay Sales </h1>"
+            "<h1>Contoso aboutus </h1>"
             +"<hr/>"
             +"<h3>Doing ordinary things extraordinarily</h3>"
             + "<br/>"
@@ -33,7 +33,7 @@ app.get("/aboutus",(req, res)=>{
 
 app.get("/login",(req, res)=>{
     res.send(
-            "<h1>Vijay Sales </h1>"
+            "<h1>Contoso Login </h1>"
             + "<h3>Login</h3>"
             +"<hr/>"
             +"<form>"
@@ -46,4 +46,4 @@ app.get("/login",(req, res)=>{
 });
 
 var server=app.listen(9000);
-console.log("Vijay Sales Online shopping running on port 9000");
+console.log("Contoso Online shopping running on port 9000");
